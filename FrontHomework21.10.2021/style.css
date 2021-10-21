@@ -1,0 +1,41 @@
+body{
+background-color: rgb(220, 253, 253);
+}
+.form{
+    background-color:white; 
+    height: 1000px;
+    width: 1100px;
+    margin-left: 130px;
+}
+.form h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.form form{
+    margin-left: 100px;
+   
+}
+.form .form-input{
+margin-top: 30px;
+}
+.form .form-input .input{
+   
+    height: 24px;
+    width: 300px;
+}
+.form .form-input .input-minimum{
+   
+    height: 30px;
+    width: 100px;
+}
+.form .form-input label{
+    font-size: 25px;
+}
+.form .form-input .submit{
+    text-align: center;
+    margin-left: 500px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+   background-color: rgb(78, 78, 243);
+}
