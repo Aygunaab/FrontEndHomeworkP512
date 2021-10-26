@@ -1,0 +1,89 @@
+.color-blue {
+	color: #3878a7;
+	font-weight: 100;
+}
+.color-gray {
+	color: #5c5c5c;
+}
+.title-color {
+	color: #484848;
+}
+.fs-14 {
+	font-size: 14px;
+}
+.fs-13 {
+	font-size: 13px;
+	font-weight: 400;
+}
+.capitalise {
+	text-transform: capitalize;
+}
+.bg-dark {
+	background-color: black;
+	margin: 0;
+}
+.remove{
+    list-style: none;
+  padding: 0;
+}
+.container {
+	height: 1050px;
+	width: 50%;
+	background-color: white;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.content-box {
+	text-transform: uppercase;
+	margin-left: 30px;
+	padding-top: 20px;
+	
+}
+.content-box a {
+	text-transform: lowercase;
+}
+.content-box .title {
+	font-size: 50px;
+	letter-spacing: 2px;
+	color: #3f3f3f;
+	margin-bottom: 0;
+	font-weight: 100;
+}
+.content-box .subtitle {
+	color: #404040;
+	margin-top: 0;
+	font-weight: 200;
+	text-transform: capitalize;
+}
+.content-box .email-tel {
+	color: #727272;
+	font-size: 10px;
+	font-weight: 700;
+}
+.content-box .email-tel span {
+	color: black;
+}
+.container .experance-box {
+    display: flex;
+	margin-left: 25px;
+	
+}
+.container .experance-box .content-boxs{
+    border-left: 2px dashed#a4a4a4;
+}
+.container .experance-box .content {
+	margin-left: 20px;
+    margin-right: 20px;
+}
+.container .experance-box .content .title-card{
+    margin-bottom: 50px;
+}
+.container .experance-box .content p{
+    margin-top: 20px;
+}
+.container .experance-box .content .upper {
+	text-transform: uppercase;
+}
+.container .experance-box .content .company-title {
+	margin-bottom: 0;
+}
