@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 778px) {
+  .footer-links {
+    display: block;
+  }
+}
+
+@media (max-width: 778px) {
+  .logo-box {
+    text-align: center;
+  }
+}
+
+.logo-box .logo {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+@media (max-width: 778px) {
+  .select-language {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.select-language select {
+  background-color: transparent;
+  color: gray;
+  width: 300px;
+}
+
+@media (max-width: 992px) {
+  .select-language select {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 778px) {
+  .select-language select {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 778px) {
+  .list-box {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.list {
+  margin-top: 55px;
+}
+
+@media (max-width: 778px) {
+  .list {
+    margin-left: 60px;
+  }
+}
+
+.list h6 {
+  color: gray;
+  font-size: 20px;
+}
+
+.list .reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list .reset li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.app-store {
+  -webkit-transform: translate(0, -40px);
+          transform: translate(0, -40px);
+  pointer-events: none;
+  width: 95%;
+  padding-bottom: 0;
+  margin-bottom: 64px;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-left: 0;
+}
+
+@media (max-width: 778px) {
+  .app-store {
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+
+.app-store a {
+  margin-right: 20px;
+}
+
+@media (max-width: 778px) {
+  .app-store a {
+    margin-top: 20px;
+  }
+}
+
+.app-store .bg-img {
+  background-image: url(/assets/img/sprite.png);
+  background-size: 200px 500px;
+  background-position: center;
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 0;
+}
+
+.app-store .google {
+  background-position: center -46px;
+  width: 110px;
+  height: 38px;
+}
+
+.app-store .apple {
+  background-position: center 0;
+  width: 110px;
+  height: 38px;
+}
+
+.app-store .galaxy {
+  background-image: url(/assets/img/galaxystore.png);
+  background-size: 140px 38px;
+  width: 140px;
+  height: 38px;
+}
+
+.copyright .social ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.copyright .social ul li a {
+  color: white;
+  font-size: 25px;
+}
+
+.copyright .social h5 {
+  color: gray;
+}
+
+.copyright p {
+  color: gray;
+}
+/*# sourceMappingURL=style.css.map */
